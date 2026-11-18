@@ -22,10 +22,11 @@ costs about 26 bps, while the mean absolute 1-minute move is only about
 
 Backtest on the published dev window (1,440 bars, 2026-11-17 14:45 UTC to
 2026-11-18 14:44 UTC, replayed with fills at the next open, 4 bps fee,
-2 bps slippage and pool impact): net PnL +$18.53 on 2 round trips, graded
+2 bps slippage and pool impact): net PnL +$12.76 on 3 trades (win rate
+0.50, max drawdown 0.65%, fees $1.62, still +$11.14 at 2x fees), graded
 with the kit's own `grade-local`. Buy-and-hold on the same window made
 -$28.00. The dev day is a falling day, so the slower 240-bar fade from the
-previous race loses $17.09 here — the faster 2-hour mean is what survives it.
+previous race loses $23.09 here — the faster 2-hour mean is what survives it.
 
 ## Files
 
